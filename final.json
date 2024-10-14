@@ -1,0 +1,238 @@
+{
+    "tirage_final": {
+        "equipes": [
+            {
+            "nom": "Manchester City",
+            "pays": "Angleterre",
+            "chapeau": 1,
+            "adversaires": [
+                {
+                "nom": "Bayer Leverkusen",
+                "pays": "Allemagne",
+                "chapeau": 2,
+                "domicile": true
+                },
+                {
+                "nom": "Feyenoord Rotterdam",
+                "pays": "Pays-Bas",
+                "chapeau": 3,
+                "domicile": false
+                },
+                {
+                "nom": "AS Monaco",
+                "pays": "France",
+                "chapeau": 4,
+                "domicile": true
+                }
+            ]
+            },
+            {
+            "nom": "Bayern Munich",
+            "pays": "Allemagne",
+            "chapeau": 1,
+            "adversaires": [
+                {
+                "nom": "Arsenal",
+                "pays": "Angleterre",
+                "chapeau": 2,
+                "domicile": false
+                },
+                {
+                "nom": "Lille",
+                "pays": "France",
+                "chapeau": 3,
+                "domicile": true
+                },
+                {
+                "nom": "Aston Villa",
+                "pays": "Angleterre",
+                "chapeau": 4,
+                "domicile": false
+                }
+            ]
+            },
+            {
+            "nom": "Real Madrid",
+            "pays": "Espagne",
+            "chapeau": 1,
+            "adversaires": [
+                {
+                "nom": "Atalanta Bergame",
+                "pays": "Italie",
+                "chapeau": 2,
+                "domicile": false
+                },
+                {
+                "nom": "Young Boys",
+                "pays": "Suisse",
+                "chapeau": 3,
+                "domicile": true
+                },
+                {
+                "nom": "Sparta Prague",
+                "pays": "République Tchèque",
+                "chapeau": 4,
+                "domicile": false
+                }
+            ]
+            },
+            {
+            "nom": "PSG",
+            "pays": "France",
+            "chapeau": 1,
+            "adversaires": [
+                {
+                "nom": "Shakhtar Donetsk",
+                "pays": "Ukraine",
+                "chapeau": 2,
+                "domicile": true
+                },
+                {
+                "nom": "Sporting Portugal",
+                "pays": "Portugal",
+                "chapeau": 3,
+                "domicile": false
+                },
+                {
+                "nom": "Stuttgart",
+                "pays": "Allemagne",
+                "chapeau": 4,
+                "domicile": true
+                }
+            ]
+            },
+            {
+            "nom": "Liverpool",
+            "pays": "Angleterre",
+            "chapeau": 1,
+            "adversaires": [
+                {
+                "nom": "Juventus Turin",
+                "pays": "Italie",
+                "chapeau": 2,
+                "domicile": false
+                },
+                {
+                "nom": "PSV Eindhoven",
+                "pays": "Pays-Bas",
+                "chapeau": 3,
+                "domicile": true
+                },
+                {
+                "nom": "Stade Brestois",
+                "pays": "France",
+                "chapeau": 4,
+                "domicile": false
+                }
+            ]
+            },
+            {
+            "nom": "Inter Milan",
+            "pays": "Italie",
+            "chapeau": 1,
+            "adversaires": [
+                {
+                "nom": "Club Bruges",
+                "pays": "Belgique",
+                "chapeau": 2,
+                "domicile": true
+                },
+                {
+                "nom": "Dinamo Zagreb",
+                "pays": "Croatie",
+                "chapeau": 3,
+                "domicile": false
+                },
+                {
+                "nom": "Slovan Bratislava",
+                "pays": "Slovaquie",
+                "chapeau": 4,
+                "domicile": true
+                }
+            ]
+            },
+            {
+            "nom": "Borussia Dortmund",
+            "pays": "Allemagne",
+            "chapeau": 1,
+            "adversaires": [
+                {
+                "nom": "Benfica Lisbonne",
+                "pays": "Portugal",
+                "chapeau": 2,
+                "domicile": true
+                },
+                {
+                "nom": "RB Salzbourg",
+                "pays": "Autriche",
+                "chapeau": 3,
+                "domicile": false
+                },
+                {
+                "nom": "Bologne",
+                "pays": "Italie",
+                "chapeau": 4,
+                "domicile": true
+                }
+            ]
+            },
+            {
+            "nom": "RB Leipzig",
+            "pays": "Allemagne",
+            "chapeau": 1,
+            "adversaires": [
+                {
+                "nom": "Atlético de Madrid",
+                "pays": "Espagne",
+                "chapeau": 2,
+                "domicile": true
+                },
+                {
+                "nom": "Celtic",
+                "pays": "Écosse",
+                "chapeau": 3,
+                "domicile": false
+                },
+                {
+                "nom": "Gérone",
+                "pays": "Espagne",
+                "chapeau": 4,
+                "domicile": true
+                }
+            ]
+            },
+            {
+            "nom": "FC Barcelone",
+            "pays": "Espagne",
+            "chapeau": 1,
+            "adversaires": [
+                {
+                "nom": "AC Milan",
+                "pays": "Italie",
+                "chapeau": 2,
+                "domicile": true
+                },
+                {
+                "nom": "Étoile Rouge de Belgrade",
+                "pays": "Serbie",
+                "chapeau": 3,
+                "domicile": false
+                },
+                {
+                "nom": "Sturm Graz",
+                "pays": "Autriche",
+                "chapeau": 4,
+                "domicile": true
+                }
+            ]
+            }
+        ]
+        },
+        "contraintes": {
+        "equipes_par_chapeau": 9,
+        "nombre_matchs": 8,
+        "nombre_adversaires_par_chapeau": 2,
+        "maximum_equipes_meme_championnat": 2
+        }
+    }
+    
