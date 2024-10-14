@@ -14,7 +14,7 @@ class Draw:
     """Classe principale pour gérer le tirage au sort."""
     def __init__(self, teams_data):
         self.teams = self.load_teams(teams_data)
-        self.groups = []
+        self.groups = self.create_groups()
         self.matches = {}
 
     def load_teams(self, teams_data):
@@ -25,41 +25,42 @@ class Draw:
             teams.append(team)
         return teams
 
+    def create_groups(self):
+        """Crée les groupes de matches."""
+        groups = [[] for _ in range(8)]  # 8 groupes de matches
+        return groups
+
     def make_draw(self):
         """Effectue le tirage en respectant les règles des chapeaux et championnats."""
-        # Répartir les équipes par chapeau
         pots = self.group_teams_by_pot()
-        
+
         # Mélanger les équipes à l'intérieur de chaque chapeau
         for pot in pots:
             random.shuffle(pots[pot])
 
-        # Assigner 2 équipes de chaque chapeau, respecter les règles de championnat
-        for team in self.teams:
-            home_matches, away_matches = self.assign_opponents(team, pots)
-            self.matches[team.name] = {
-                'chapeau': team.pot,
-                'league': team.league,
-                'home': [{'name': opponent.name, 'pot': opponent.pot, 'league': opponent.league} for opponent in home_matches],
-                'away': [{'name': opponent.name, 'pot': opponent.pot, 'league': opponent.league} for opponent in away_matches]
-            }
-    
+        # Assigner une équipe de chaque chapeau à chaque groupe, en respectant les règles de championnat
+        for i in range(8):
+            for pot in range(1, 5):
+                available_teams = [t for t in pots[pot] if t not in self.groups[i] and (len(self.groups[i]) == 0 or t.league != self.groups[i][0].league)]
+                if available_teams:
+                    team = random.choice(available_teams)
+                    self.groups[i].append(team)
+                    self.assign_opponents(team)
+
     def group_teams_by_pot(self):
         """Regroupe les équipes par chapeau."""
-        pots = {1: [], 2: [], 3: [], 4: []}
-        for team in self.teams:
-            pots[team.pot].append(team)
-        return pots
+        return {pot: [team for team in self.teams if team.pot == pot] for pot in range(1, 5)}
 
-    def assign_opponents(self, team, pots):
-        """Assigne 8 adversaires (2 par chapeau) à une équipe en respectant les règles."""
+    def assign_opponents(self, team):
+        """Assigne les adversaires à une équipe en respectant les règles."""
+        group = self.groups[self.groups.index(team)]
         home_matches = []
         away_matches = []
         league_count = {}
 
         # Pour chaque chapeau, choisir 2 adversaires
-        for pot in pots:
-            available_teams = [t for t in pots[pot] if t != team and t.league != team.league]
+        for pot in range(1, 5):
+            available_teams = [t for t in self.groups[self.groups.index(team)] if t != team and t.pot == pot and t.league != team.league]
             random.shuffle(available_teams)
             assigned_teams = available_teams[:2]
 
@@ -75,7 +76,12 @@ class Draw:
                 if league_count[opponent.league] > 2:
                     assigned_teams.remove(opponent)
 
-        return home_matches, away_matches
+        self.matches[team.name] = {
+            'chapeau': team.pot,
+            'league': team.league,
+            'home': [{'name': opponent.name, 'pot': opponent.pot, 'league': opponent.league} for opponent in home_matches],
+            'away': [{'name': opponent.name, 'pot': opponent.pot, 'league': opponent.league} for opponent in away_matches]
+        }
 
     def save_results(self, filename):
         """Sauvegarde les résultats du tirage dans un fichier JSON."""
@@ -86,47 +92,52 @@ class Draw:
 
 class DrawPDF(FPDF):
     """Classe pour générer le PDF avec les résultats du tirage au sort."""
-    
     def __init__(self):
         super().__init__()
         self.set_auto_page_break(auto=True, margin=15)
-    
+        self.add_page()
+        self.add_font('DejaVu', '', 'DejaVuSans.ttf', uni=True)  # Assurez-vous que 'DejaVuSans.ttf' est dans votre projet
+        self.set_font('DejaVu', '', 12)
+
     def header(self):
         """En-tête du document PDF."""
-        self.set_font('Arial', 'B', 12)
+        self.set_font('DejaVu', 'B', 12)
         self.cell(0, 10, 'Tirage au sort - Ligue des Champions', 0, 1, 'C')
         self.ln(10)
 
-    def footer(self):
-        """Pied de page du document PDF."""
-        self.set_y(-15)
-        self.set_font('Arial', 'I', 8)
-        self.cell(0, 10, f'Page {self.page_no()}', 0, 0, 'C')
+    def generate_pdf(self, matches):
+        """Génère le corps du document PDF."""
+        for team, match_data in matches.items():
+            self.set_font('DejaVu', 'B', 14)
+            self.cell(0, 10, team, 0, 1, 'L')
+            self.set_font('DejaVu', '', 12)
+            self.cell(0, 5, f"Chapeau {match_data['chapeau']} - {match_data['league']}", 0, 1, 'L')
 
-    def add_draw(self, matches):
-        """Ajoute les résultats du tirage au document PDF."""
-        self.add_page()
-        self.set_font('Arial', '', 12)
-        for team, details in matches.items():
-            self.cell(0, 10, f'{team} (Chapeau {details["chapeau"]}, Ligue: {details["league"]})', ln=True)
-            self.cell(0, 10, 'Matchs à domicile:', ln=True)
-            for opponent in details['home']:
-                self.cell(0, 10, f'  - {opponent["name"]} (Chapeau {opponent["pot"]}, Ligue: {opponent["league"]})', ln=True)
-            self.cell(0, 10, 'Matchs à l\'extérieur:', ln=True)
-            for opponent in details['away']:
-                self.cell(0, 10, f'  - {opponent["name"]} (Chapeau {opponent["pot"]}, Ligue: {opponent["league"]})', ln=True)
+            self.cell(0, 5, "Matchs à domicile:", 0, 1, 'L')
+            for opponent in match_data['home']:
+                self.cell(0, 5, f"- {opponent['name']} (Chapeau {opponent['pot']} - {opponent['league']})", 0, 1, 'L')
+
+            self.cell(0, 5, "Matchs à l'extérieur:", 0, 1, 'L')
+            for opponent in match_data['away']:
+                self.cell(0, 5, f"- {opponent['name']} (Chapeau {opponent['pot']} - {opponent['league']})", 0, 1, 'L')
+
             self.ln(10)
 
-# Exemple d'utilisation
-if __name__ == "__main__":
-    with open("data/teams.json", "r") as file:
-        teams_data = json.load(file)
+# Chargement des données des équipes
+with open('teams.json', 'r') as f:
+    teams_data = json.load(f)
 
-    draw = Draw(teams_data)
-    draw.make_draw()
-    draw.save_results('tournament_results.json')
+# Création de l'objet Draw
+draw = Draw(teams_data)
 
-    # Générer le PDF
-    pdf = DrawPDF()
-    pdf.add_draw(draw.matches)
-    pdf.output('draw_results.pdf')
+# Exécution du tirage au sort
+draw.make_draw()
+
+# Sauvegarde des résultats dans un fichier JSON
+draw.save_results('results.json')
+
+# Génération du PDF
+pdf = DrawPDF()
+pdf.header()
+pdf.generate_pdf(draw.matches)
+pdf.output('draw_results.pdf')
