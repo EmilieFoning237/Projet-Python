@@ -1,109 +1,40 @@
 {
     "matches": {
-        "Bologne": {
-            "chapeau": 4,
-            "league": "Serie A",
-            "home": [
-                {
-                    "name": "PSG",
-                    "pot": 1,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "Sparta Prague",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                },
-                {
-                    "name": "Arsenal",
-                    "pot": 2,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "Stuttgart",
-                    "pot": 4,
-                    "league": "Bundesliga"
-                }
-            ],
-            "away": [
-                {
-                    "name": "PSV Eindhoven",
-                    "pot": 3,
-                    "league": "Eredivisie"
-                },
-                {
-                    "name": "Liverpool",
-                    "pot": 1,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "Young Boys",
-                    "pot": 3,
-                    "league": "Super League"
-                },
-                {
-                    "name": "Inter Milan",
-                    "pot": 1,
-                    "league": "Serie A"
-                }
-            ]
-        },
-        "Liverpool": {
+        "Manchester City": {
             "chapeau": 1,
             "league": "Premier League",
             "home": [
                 {
-                    "name": "Sparta Prague",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
+                    "name": "PSG",
+                    "pot": 1,
+                    "league": "Ligue 1"
                 },
                 {
-                    "name": "Bologne",
-                    "pot": 4,
-                    "league": "Serie A"
+                    "name": "Real Madrid",
+                    "pot": 1,
+                    "league": "La Liga"
                 },
+                {
+                    "name": "Atl\u00c3\u00a9tico de Madrid",
+                    "pot": 2,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "Shakhtar Donetsk",
+                    "pot": 2,
+                    "league": "Premyer-Liha"
+                }
+            ],
+            "away": [
                 {
                     "name": "Young Boys",
                     "pot": 3,
                     "league": "Super League"
                 },
                 {
-                    "name": "Stuttgart",
-                    "pot": 4,
-                    "league": "Bundesliga"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Inter Milan",
-                    "pot": 1,
-                    "league": "Serie A"
-                },
-                {
                     "name": "PSV Eindhoven",
                     "pot": 3,
                     "league": "Eredivisie"
-                },
-                {
-                    "name": "Arsenal",
-                    "pot": 2,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "PSG",
-                    "pot": 1,
-                    "league": "Ligue 1"
-                }
-            ]
-        },
-        "Arsenal": {
-            "chapeau": 2,
-            "league": "Premier League",
-            "home": [
-                {
-                    "name": "Liverpool",
-                    "pot": 1,
-                    "league": "Premier League"
                 },
                 {
                     "name": "Stuttgart",
@@ -111,69 +42,42 @@
                     "league": "Bundesliga"
                 },
                 {
-                    "name": "PSG",
-                    "pot": 1,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "Inter Milan",
-                    "pot": 1,
-                    "league": "Serie A"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Young Boys",
-                    "pot": 3,
-                    "league": "Super League"
-                },
-                {
-                    "name": "Sparta Prague",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                },
-                {
                     "name": "Bologne",
                     "pot": 4,
                     "league": "Serie A"
-                },
-                {
-                    "name": "PSV Eindhoven",
-                    "pot": 3,
-                    "league": "Eredivisie"
                 }
             ]
         },
-        "Sparta Prague": {
-            "chapeau": 4,
-            "league": "Fortuna Liga",
+        "Bayern Munich": {
+            "chapeau": 1,
+            "league": "Bundesliga",
             "home": [
                 {
-                    "name": "Liverpool",
+                    "name": "Inter Milan",
+                    "pot": 1,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Manchester City",
                     "pot": 1,
                     "league": "Premier League"
                 },
                 {
-                    "name": "PSV Eindhoven",
-                    "pot": 3,
-                    "league": "Eredivisie"
-                },
-                {
-                    "name": "Arsenal",
+                    "name": "Club Bruges",
                     "pot": 2,
-                    "league": "Premier League"
+                    "league": "Jupiler Pro League"
                 },
                 {
-                    "name": "PSG",
-                    "pot": 1,
-                    "league": "Ligue 1"
+                    "name": "Atl\u00c3\u00a9tico de Madrid",
+                    "pot": 2,
+                    "league": "La Liga"
                 }
             ],
             "away": [
                 {
-                    "name": "Bologne",
-                    "pot": 4,
-                    "league": "Serie A"
+                    "name": "RB Salzbourg",
+                    "pot": 3,
+                    "league": "Bundesliga Autrichienne"
                 },
                 {
                     "name": "Young Boys",
@@ -181,9 +85,52 @@
                     "league": "Super League"
                 },
                 {
-                    "name": "Inter Milan",
+                    "name": "Aston Villa",
+                    "pot": 4,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Sturm Graz",
+                    "pot": 4,
+                    "league": "Bundesliga Autrichienne"
+                }
+            ]
+        },
+        "Real Madrid": {
+            "chapeau": 1,
+            "league": "La Liga",
+            "home": [
+                {
+                    "name": "RB Leipzig",
                     "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Manchester City",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Bayer Leverkusen",
+                    "pot": 2,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Atalanta Bergame",
+                    "pot": 2,
                     "league": "Serie A"
+                }
+            ],
+            "away": [
+                {
+                    "name": "RB Salzbourg",
+                    "pot": 3,
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "Feyenoord Rotterdam",
+                    "pot": 3,
+                    "league": "Eredivisie"
                 },
                 {
                     "name": "Stuttgart",
@@ -202,36 +149,36 @@
                     "league": "Serie A"
                 },
                 {
-                    "name": "Sparta Prague",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                },
-                {
-                    "name": "Liverpool",
+                    "name": "Bayern Munich",
                     "pot": 1,
-                    "league": "Premier League"
+                    "league": "Bundesliga"
                 },
                 {
-                    "name": "Arsenal",
+                    "name": "Atl\u00c3\u00a9tico de Madrid",
                     "pot": 2,
-                    "league": "Premier League"
+                    "league": "La Liga"
+                },
+                {
+                    "name": "Club Bruges",
+                    "pot": 2,
+                    "league": "Jupiler Pro League"
                 }
             ],
             "away": [
                 {
-                    "name": "PSV Eindhoven",
+                    "name": "Celtic",
+                    "pot": 3,
+                    "league": "Scottish Premiership"
+                },
+                {
+                    "name": "Feyenoord Rotterdam",
                     "pot": 3,
                     "league": "Eredivisie"
                 },
                 {
-                    "name": "Young Boys",
-                    "pot": 3,
-                    "league": "Super League"
-                },
-                {
-                    "name": "Stuttgart",
+                    "name": "G\u00c3\u00a9rone",
                     "pot": 4,
-                    "league": "Bundesliga"
+                    "league": "La Liga"
                 },
                 {
                     "name": "Bologne",
@@ -240,51 +187,46 @@
                 }
             ]
         },
-        "Young Boys": {
-            "chapeau": 3,
-            "league": "Super League",
+        "Liverpool": {
+            "chapeau": 1,
+            "league": "Premier League",
             "home": [
                 {
-                    "name": "Inter Milan",
+                    "name": "Borussia Dortmund",
                     "pot": 1,
-                    "league": "Serie A"
+                    "league": "Bundesliga"
                 },
                 {
-                    "name": "PSG",
+                    "name": "Real Madrid",
                     "pot": 1,
-                    "league": "Ligue 1"
+                    "league": "La Liga"
                 },
                 {
-                    "name": "Arsenal",
+                    "name": "Atl\u00c3\u00a9tico de Madrid",
                     "pot": 2,
-                    "league": "Premier League"
+                    "league": "La Liga"
                 },
                 {
-                    "name": "Liverpool",
-                    "pot": 1,
-                    "league": "Premier League"
+                    "name": "Benfica Lisbonne",
+                    "pot": 2,
+                    "league": "Primeira Liga"
                 }
             ],
             "away": [
-                {
-                    "name": "Sparta Prague",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                },
-                {
-                    "name": "Bologne",
-                    "pot": 4,
-                    "league": "Serie A"
-                },
                 {
                     "name": "PSV Eindhoven",
                     "pot": 3,
                     "league": "Eredivisie"
                 },
                 {
-                    "name": "Stuttgart",
+                    "name": "Sporting Portugal",
+                    "pot": 3,
+                    "league": "Primeira Liga"
+                },
+                {
+                    "name": "G\u00c3\u00a9rone",
                     "pot": 4,
-                    "league": "Bundesliga"
+                    "league": "La Liga"
                 }
             ]
         },
@@ -293,639 +235,93 @@
             "league": "Serie A",
             "home": [
                 {
-                    "name": "Young Boys",
-                    "pot": 3,
-                    "league": "Super League"
+                    "name": "Real Madrid",
+                    "pot": 1,
+                    "league": "La Liga"
                 },
+                {
+                    "name": "FC Barcelone",
+                    "pot": 1,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "Club Bruges",
+                    "pot": 2,
+                    "league": "Jupiler Pro League"
+                },
+                {
+                    "name": "Atl\u00c3\u00a9tico de Madrid",
+                    "pot": 2,
+                    "league": "La Liga"
+                }
+            ],
+            "away": [
+                {
+                    "name": "RB Salzbourg",
+                    "pot": 3,
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "\u00c3\u2030toile Rouge de Belgrade",
+                    "pot": 3,
+                    "league": "SuperLiga"
+                },
+                {
+                    "name": "Sturm Graz",
+                    "pot": 4,
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "G\u00c3\u00a9rone",
+                    "pot": 4,
+                    "league": "La Liga"
+                }
+            ]
+        },
+        "Borussia Dortmund": {
+            "chapeau": 1,
+            "league": "Bundesliga",
+            "home": [
                 {
                     "name": "Liverpool",
                     "pot": 1,
                     "league": "Premier League"
                 },
                 {
-                    "name": "PSG",
+                    "name": "Real Madrid",
                     "pot": 1,
-                    "league": "Ligue 1"
+                    "league": "La Liga"
                 },
                 {
-                    "name": "Bologne",
-                    "pot": 4,
-                    "league": "Serie A"
+                    "name": "Club Bruges",
+                    "pot": 2,
+                    "league": "Jupiler Pro League"
+                },
+                {
+                    "name": "Arsenal",
+                    "pot": 2,
+                    "league": "Premier League"
                 }
             ],
             "away": [
                 {
-                    "name": "Stuttgart",
-                    "pot": 4,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Sparta Prague",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
+                    "name": "Feyenoord Rotterdam",
+                    "pot": 3,
+                    "league": "Eredivisie"
                 },
                 {
                     "name": "PSV Eindhoven",
                     "pot": 3,
                     "league": "Eredivisie"
                 },
-                {
-                    "name": "Arsenal",
-                    "pot": 2,
-                    "league": "Premier League"
-                }
-            ]
-        },
-        "Stuttgart": {
-            "chapeau": 4,
-            "league": "Bundesliga",
-            "home": [
-                {
-                    "name": "PSV Eindhoven",
-                    "pot": 3,
-                    "league": "Eredivisie"
-                },
-                {
-                    "name": "PSG",
-                    "pot": 1,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "Inter Milan",
-                    "pot": 1,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "Arsenal",
-                    "pot": 2,
-                    "league": "Premier League"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Young Boys",
-                    "pot": 3,
-                    "league": "Super League"
-                },
-                {
-                    "name": "Sparta Prague",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                },
-                {
-                    "name": "Liverpool",
-                    "pot": 1,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "Bologne",
-                    "pot": 4,
-                    "league": "Serie A"
-                }
-            ]
-        },
-        "PSV Eindhoven": {
-            "chapeau": 3,
-            "league": "Eredivisie",
-            "home": [
-                {
-                    "name": "Bologne",
-                    "pot": 4,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "Sparta Prague",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                },
-                {
-                    "name": "Young Boys",
-                    "pot": 3,
-                    "league": "Super League"
-                },
-                {
-                    "name": "Arsenal",
-                    "pot": 2,
-                    "league": "Premier League"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Inter Milan",
-                    "pot": 1,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "Liverpool",
-                    "pot": 1,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "Stuttgart",
-                    "pot": 4,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "PSG",
-                    "pot": 1,
-                    "league": "Ligue 1"
-                }
-            ]
-        },
-        "G\u00c3\u00a9rone": {
-            "chapeau": 4,
-            "league": "La Liga",
-            "home": [
-                {
-                    "name": "Real Madrid",
-                    "pot": 1,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "Bayern Munich",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "FC Barcelone",
-                    "pot": 1,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "RB Salzbourg",
-                    "pot": 3,
-                    "league": "Bundesliga Autrichienne"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Slovan Bratislava",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                },
-                {
-                    "name": "Dinamo Zagreb",
-                    "pot": 3,
-                    "league": "Prva HNL"
-                },
-                {
-                    "name": "AC Milan",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "Bayer Leverkusen",
-                    "pot": 2,
-                    "league": "Bundesliga"
-                }
-            ]
-        },
-        "Slovan Bratislava": {
-            "chapeau": 4,
-            "league": "Fortuna Liga",
-            "home": [
-                {
-                    "name": "Bayern Munich",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "G\u00c3\u00a9rone",
-                    "pot": 4,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "Bayer Leverkusen",
-                    "pot": 2,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Dinamo Zagreb",
-                    "pot": 3,
-                    "league": "Prva HNL"
-                }
-            ],
-            "away": [
-                {
-                    "name": "AC Milan",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "FC Barcelone",
-                    "pot": 1,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "RB Salzbourg",
-                    "pot": 3,
-                    "league": "Bundesliga Autrichienne"
-                }
-            ]
-        },
-        "Bayern Munich": {
-            "chapeau": 1,
-            "league": "Bundesliga",
-            "home": [
-                {
-                    "name": "AC Milan",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "RB Salzbourg",
-                    "pot": 3,
-                    "league": "Bundesliga Autrichienne"
-                },
-                {
-                    "name": "Slovan Bratislava",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                },
-                {
-                    "name": "FC Barcelone",
-                    "pot": 1,
-                    "league": "La Liga"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Real Madrid",
-                    "pot": 1,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "Bayer Leverkusen",
-                    "pot": 2,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Dinamo Zagreb",
-                    "pot": 3,
-                    "league": "Prva HNL"
-                }
-            ]
-        },
-        "Dinamo Zagreb": {
-            "chapeau": 3,
-            "league": "Prva HNL",
-            "home": [
-                {
-                    "name": "RB Salzbourg",
-                    "pot": 3,
-                    "league": "Bundesliga Autrichienne"
-                },
-                {
-                    "name": "G\u00c3\u00a9rone",
-                    "pot": 4,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "Real Madrid",
-                    "pot": 1,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "AC Milan",
-                    "pot": 2,
-                    "league": "Serie A"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Bayern Munich",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Slovan Bratislava",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                },
-                {
-                    "name": "Bayer Leverkusen",
-                    "pot": 2,
-                    "league": "Bundesliga"
-                }
-            ]
-        },
-        "AC Milan": {
-            "chapeau": 2,
-            "league": "Serie A",
-            "home": [
-                {
-                    "name": "Real Madrid",
-                    "pot": 1,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "G\u00c3\u00a9rone",
-                    "pot": 4,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "Bayer Leverkusen",
-                    "pot": 2,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Slovan Bratislava",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Bayern Munich",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Dinamo Zagreb",
-                    "pot": 3,
-                    "league": "Prva HNL"
-                },
-                {
-                    "name": "RB Salzbourg",
-                    "pot": 3,
-                    "league": "Bundesliga Autrichienne"
-                }
-            ]
-        },
-        "RB Salzbourg": {
-            "chapeau": 3,
-            "league": "Bundesliga Autrichienne",
-            "home": [
-                {
-                    "name": "Bayern Munich",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Bayer Leverkusen",
-                    "pot": 2,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Real Madrid",
-                    "pot": 1,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "Dinamo Zagreb",
-                    "pot": 3,
-                    "league": "Prva HNL"
-                }
-            ],
-            "away": [
-                {
-                    "name": "FC Barcelone",
-                    "pot": 1,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "AC Milan",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "Slovan Bratislava",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                }
-            ]
-        },
-        "Bayer Leverkusen": {
-            "chapeau": 2,
-            "league": "Bundesliga",
-            "home": [
-                {
-                    "name": "FC Barcelone",
-                    "pot": 1,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "RB Salzbourg",
-                    "pot": 3,
-                    "league": "Bundesliga Autrichienne"
-                },
-                {
-                    "name": "Dinamo Zagreb",
-                    "pot": 3,
-                    "league": "Prva HNL"
-                },
-                {
-                    "name": "Slovan Bratislava",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Bayern Munich",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "G\u00c3\u00a9rone",
-                    "pot": 4,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "AC Milan",
-                    "pot": 2,
-                    "league": "Serie A"
-                }
-            ]
-        },
-        "Real Madrid": {
-            "chapeau": 1,
-            "league": "La Liga",
-            "home": [
-                {
-                    "name": "Bayer Leverkusen",
-                    "pot": 2,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Slovan Bratislava",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                },
-                {
-                    "name": "Bayern Munich",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "FC Barcelone",
-                    "pot": 1,
-                    "league": "La Liga"
-                }
-            ],
-            "away": [
-                {
-                    "name": "G\u00c3\u00a9rone",
-                    "pot": 4,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "RB Salzbourg",
-                    "pot": 3,
-                    "league": "Bundesliga Autrichienne"
-                },
-                {
-                    "name": "AC Milan",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "Dinamo Zagreb",
-                    "pot": 3,
-                    "league": "Prva HNL"
-                }
-            ]
-        },
-        "FC Barcelone": {
-            "chapeau": 1,
-            "league": "La Liga",
-            "home": [
-                {
-                    "name": "Bayern Munich",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "RB Salzbourg",
-                    "pot": 3,
-                    "league": "Bundesliga Autrichienne"
-                },
-                {
-                    "name": "Bayer Leverkusen",
-                    "pot": 2,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Real Madrid",
-                    "pot": 1,
-                    "league": "La Liga"
-                }
-            ],
-            "away": [
-                {
-                    "name": "G\u00c3\u00a9rone",
-                    "pot": 4,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "AC Milan",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "Dinamo Zagreb",
-                    "pot": 3,
-                    "league": "Prva HNL"
-                },
-                {
-                    "name": "Slovan Bratislava",
-                    "pot": 4,
-                    "league": "Fortuna Liga"
-                }
-            ]
-        },
-        "Atalanta Bergame": {
-            "chapeau": 2,
-            "league": "Serie A",
-            "home": [
-                {
-                    "name": "AS Monaco",
-                    "pot": 4,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "RB Leipzig",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Juventus Turin",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "Borussia Dortmund",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                }
-            ],
-            "away": [
                 {
                     "name": "Stade Brestois",
                     "pot": 4,
                     "league": "Ligue 1"
                 },
                 {
-                    "name": "Club Bruges",
-                    "pot": 2,
-                    "league": "Jupiler Pro League"
-                },
-                {
-                    "name": "Celtic",
-                    "pot": 3,
-                    "league": "Scottish Premiership"
-                },
-                {
-                    "name": "Atl\u00c3\u00a9tico de Madrid",
-                    "pot": 2,
-                    "league": "La Liga"
-                }
-            ]
-        },
-        "Stade Brestois": {
-            "chapeau": 4,
-            "league": "Ligue 1",
-            "home": [
-                {
-                    "name": "Club Bruges",
-                    "pot": 2,
-                    "league": "Jupiler Pro League"
-                },
-                {
-                    "name": "AS Monaco",
+                    "name": "Bologne",
                     "pot": 4,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "RB Leipzig",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Atl\u00c3\u00a9tico de Madrid",
-                    "pot": 2,
-                    "league": "La Liga"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Borussia Dortmund",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Celtic",
-                    "pot": 3,
-                    "league": "Scottish Premiership"
-                },
-                {
-                    "name": "Juventus Turin",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "Atalanta Bergame",
-                    "pot": 2,
                     "league": "Serie A"
                 }
             ]
@@ -935,94 +331,142 @@
             "league": "Bundesliga",
             "home": [
                 {
-                    "name": "Celtic",
-                    "pot": 3,
-                    "league": "Scottish Premiership"
+                    "name": "Inter Milan",
+                    "pot": 1,
+                    "league": "Serie A"
                 },
                 {
-                    "name": "Stade Brestois",
-                    "pot": 4,
-                    "league": "Ligue 1"
+                    "name": "Real Madrid",
+                    "pot": 1,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "AC Milan",
+                    "pot": 2,
+                    "league": "Serie A"
                 },
                 {
                     "name": "Atalanta Bergame",
                     "pot": 2,
                     "league": "Serie A"
-                },
-                {
-                    "name": "Atl\u00c3\u00a9tico de Madrid",
-                    "pot": 2,
-                    "league": "La Liga"
                 }
             ],
             "away": [
                 {
-                    "name": "Borussia Dortmund",
+                    "name": "\u00c3\u2030toile Rouge de Belgrade",
+                    "pot": 3,
+                    "league": "SuperLiga"
+                },
+                {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "Sturm Graz",
+                    "pot": 4,
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "Bologne",
+                    "pot": 4,
+                    "league": "Serie A"
+                }
+            ]
+        },
+        "FC Barcelone": {
+            "chapeau": 1,
+            "league": "La Liga",
+            "home": [
+                {
+                    "name": "Liverpool",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Bayern Munich",
                     "pot": 1,
                     "league": "Bundesliga"
                 },
                 {
-                    "name": "AS Monaco",
-                    "pot": 4,
-                    "league": "Ligue 1"
+                    "name": "Shakhtar Donetsk",
+                    "pot": 2,
+                    "league": "Premyer-Liha"
                 },
                 {
-                    "name": "Juventus Turin",
+                    "name": "Bayer Leverkusen",
                     "pot": 2,
-                    "league": "Serie A"
+                    "league": "Bundesliga"
+                }
+            ],
+            "away": [
+                {
+                    "name": "RB Salzbourg",
+                    "pot": 3,
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "Slovan Bratislava",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                },
+                {
+                    "name": "Sturm Graz",
+                    "pot": 4,
+                    "league": "Bundesliga Autrichienne"
+                }
+            ]
+        },
+        "Bayer Leverkusen": {
+            "chapeau": 2,
+            "league": "Bundesliga",
+            "home": [
+                {
+                    "name": "Manchester City",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Liverpool",
+                    "pot": 1,
+                    "league": "Premier League"
                 },
                 {
                     "name": "Club Bruges",
                     "pot": 2,
                     "league": "Jupiler Pro League"
-                }
-            ]
-        },
-        "Club Bruges": {
-            "chapeau": 2,
-            "league": "Jupiler Pro League",
-            "home": [
+                },
                 {
-                    "name": "Juventus Turin",
+                    "name": "Benfica Lisbonne",
                     "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "AS Monaco",
-                    "pot": 4,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "Borussia Dortmund",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Atl\u00c3\u00a9tico de Madrid",
-                    "pot": 2,
-                    "league": "La Liga"
+                    "league": "Primeira Liga"
                 }
             ],
             "away": [
                 {
-                    "name": "Celtic",
+                    "name": "Lille",
                     "pot": 3,
-                    "league": "Scottish Premiership"
-                },
-                {
-                    "name": "Atalanta Bergame",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "RB Leipzig",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Stade Brestois",
-                    "pot": 4,
                     "league": "Ligue 1"
+                },
+                {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "G\u00c3\u00a9rone",
+                    "pot": 4,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "Aston Villa",
+                    "pot": 4,
+                    "league": "Premier League"
                 }
             ]
         },
@@ -1031,67 +475,67 @@
             "league": "La Liga",
             "home": [
                 {
-                    "name": "Club Bruges",
+                    "name": "Manchester City",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "PSG",
+                    "pot": 1,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "Shakhtar Donetsk",
                     "pot": 2,
-                    "league": "Jupiler Pro League"
+                    "league": "Premyer-Liha"
                 },
                 {
-                    "name": "RB Leipzig",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Borussia Dortmund",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Atalanta Bergame",
+                    "name": "AC Milan",
                     "pot": 2,
                     "league": "Serie A"
                 }
             ],
             "away": [
                 {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "Sporting Portugal",
+                    "pot": 3,
+                    "league": "Primeira Liga"
+                },
+                {
+                    "name": "Sparta Prague",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                },
+                {
                     "name": "Stade Brestois",
                     "pot": 4,
                     "league": "Ligue 1"
-                },
-                {
-                    "name": "AS Monaco",
-                    "pot": 4,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "Celtic",
-                    "pot": 3,
-                    "league": "Scottish Premiership"
-                },
-                {
-                    "name": "Juventus Turin",
-                    "pot": 2,
-                    "league": "Serie A"
                 }
             ]
         },
-        "Borussia Dortmund": {
-            "chapeau": 1,
-            "league": "Bundesliga",
+        "Atalanta Bergame": {
+            "chapeau": 2,
+            "league": "Serie A",
             "home": [
                 {
-                    "name": "Atl\u00c3\u00a9tico de Madrid",
-                    "pot": 2,
-                    "league": "La Liga"
+                    "name": "Bayern Munich",
+                    "pot": 1,
+                    "league": "Bundesliga"
                 },
                 {
-                    "name": "Stade Brestois",
-                    "pot": 4,
-                    "league": "Ligue 1"
+                    "name": "RB Leipzig",
+                    "pot": 1,
+                    "league": "Bundesliga"
                 },
                 {
-                    "name": "Juventus Turin",
+                    "name": "Shakhtar Donetsk",
                     "pot": 2,
-                    "league": "Serie A"
+                    "league": "Premyer-Liha"
                 },
                 {
                     "name": "Club Bruges",
@@ -1101,24 +545,24 @@
             ],
             "away": [
                 {
-                    "name": "RB Leipzig",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Celtic",
+                    "name": "Young Boys",
                     "pot": 3,
-                    "league": "Scottish Premiership"
+                    "league": "Super League"
                 },
                 {
-                    "name": "Atalanta Bergame",
-                    "pot": 2,
-                    "league": "Serie A"
+                    "name": "PSV Eindhoven",
+                    "pot": 3,
+                    "league": "Eredivisie"
                 },
                 {
-                    "name": "AS Monaco",
+                    "name": "Sturm Graz",
                     "pot": 4,
-                    "league": "Ligue 1"
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "G\u00c3\u00a9rone",
+                    "pot": 4,
+                    "league": "La Liga"
                 }
             ]
         },
@@ -1127,168 +571,67 @@
             "league": "Serie A",
             "home": [
                 {
-                    "name": "Atalanta Bergame",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "AS Monaco",
-                    "pot": 4,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "RB Leipzig",
+                    "name": "Borussia Dortmund",
                     "pot": 1,
                     "league": "Bundesliga"
                 },
                 {
-                    "name": "Atl\u00c3\u00a9tico de Madrid",
+                    "name": "Bayern Munich",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Club Bruges",
                     "pot": 2,
-                    "league": "La Liga"
+                    "league": "Jupiler Pro League"
+                },
+                {
+                    "name": "Bayer Leverkusen",
+                    "pot": 2,
+                    "league": "Bundesliga"
                 }
             ],
             "away": [
                 {
-                    "name": "Celtic",
+                    "name": "Sporting Portugal",
                     "pot": 3,
-                    "league": "Scottish Premiership"
+                    "league": "Primeira Liga"
                 },
                 {
-                    "name": "Borussia Dortmund",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Club Bruges",
-                    "pot": 2,
-                    "league": "Jupiler Pro League"
-                },
-                {
-                    "name": "Stade Brestois",
-                    "pot": 4,
-                    "league": "Ligue 1"
-                }
-            ]
-        },
-        "Celtic": {
-            "chapeau": 3,
-            "league": "Scottish Premiership",
-            "home": [
-                {
-                    "name": "Borussia Dortmund",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Juventus Turin",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "RB Leipzig",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Stade Brestois",
-                    "pot": 4,
-                    "league": "Ligue 1"
-                }
-            ],
-            "away": [
-                {
-                    "name": "AS Monaco",
-                    "pot": 4,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "Club Bruges",
-                    "pot": 2,
-                    "league": "Jupiler Pro League"
-                },
-                {
-                    "name": "Atl\u00c3\u00a9tico de Madrid",
-                    "pot": 2,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "Atalanta Bergame",
-                    "pot": 2,
-                    "league": "Serie A"
-                }
-            ]
-        },
-        "AS Monaco": {
-            "chapeau": 4,
-            "league": "Ligue 1",
-            "home": [
-                {
-                    "name": "Club Bruges",
-                    "pot": 2,
-                    "league": "Jupiler Pro League"
-                },
-                {
-                    "name": "Borussia Dortmund",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "RB Leipzig",
-                    "pot": 1,
-                    "league": "Bundesliga"
-                },
-                {
-                    "name": "Celtic",
+                    "name": "RB Salzbourg",
                     "pot": 3,
-                    "league": "Scottish Premiership"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Juventus Turin",
-                    "pot": 2,
-                    "league": "Serie A"
+                    "league": "Bundesliga Autrichienne"
                 },
                 {
-                    "name": "Atalanta Bergame",
-                    "pot": 2,
-                    "league": "Serie A"
-                },
-                {
-                    "name": "Atl\u00c3\u00a9tico de Madrid",
-                    "pot": 2,
-                    "league": "La Liga"
-                },
-                {
-                    "name": "Stade Brestois",
+                    "name": "Stuttgart",
                     "pot": 4,
-                    "league": "Ligue 1"
+                    "league": "Bundesliga"
                 }
             ]
         },
-        "Sporting Portugal": {
-            "chapeau": 3,
+        "Benfica Lisbonne": {
+            "chapeau": 2,
             "league": "Primeira Liga",
             "home": [
                 {
-                    "name": "Feyenoord Rotterdam",
-                    "pot": 3,
-                    "league": "Eredivisie"
-                },
-                {
-                    "name": "Aston Villa",
-                    "pot": 4,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "Manchester City",
+                    "name": "RB Leipzig",
                     "pot": 1,
-                    "league": "Premier League"
+                    "league": "Bundesliga"
                 },
                 {
-                    "name": "Shakhtar Donetsk",
+                    "name": "Real Madrid",
+                    "pot": 1,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "AC Milan",
                     "pot": 2,
-                    "league": "Premyer-Liha"
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Juventus Turin",
+                    "pot": 2,
+                    "league": "Serie A"
                 }
             ],
             "away": [
@@ -1298,35 +641,35 @@
                     "league": "Ligue 1"
                 },
                 {
-                    "name": "\u00c3\u2030toile Rouge de Belgrade",
+                    "name": "RB Salzbourg",
                     "pot": 3,
-                    "league": "SuperLiga"
-                },
-                {
-                    "name": "Benfica Lisbonne",
-                    "pot": 2,
-                    "league": "Primeira Liga"
-                },
-                {
-                    "name": "Sturm Graz",
-                    "pot": 4,
                     "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "Slovan Bratislava",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                },
+                {
+                    "name": "Stade Brestois",
+                    "pot": 4,
+                    "league": "Ligue 1"
                 }
             ]
         },
-        "Aston Villa": {
-            "chapeau": 4,
+        "Arsenal": {
+            "chapeau": 2,
             "league": "Premier League",
             "home": [
                 {
-                    "name": "Lille",
-                    "pot": 3,
-                    "league": "Ligue 1"
+                    "name": "RB Leipzig",
+                    "pot": 1,
+                    "league": "Bundesliga"
                 },
                 {
-                    "name": "Shakhtar Donetsk",
-                    "pot": 2,
-                    "league": "Premyer-Liha"
+                    "name": "PSG",
+                    "pot": 1,
+                    "league": "Ligue 1"
                 },
                 {
                     "name": "Benfica Lisbonne",
@@ -1334,31 +677,170 @@
                     "league": "Primeira Liga"
                 },
                 {
-                    "name": "Manchester City",
-                    "pot": 1,
-                    "league": "Premier League"
+                    "name": "Club Bruges",
+                    "pot": 2,
+                    "league": "Jupiler Pro League"
                 }
             ],
             "away": [
                 {
-                    "name": "Sturm Graz",
-                    "pot": 4,
+                    "name": "RB Salzbourg",
+                    "pot": 3,
                     "league": "Bundesliga Autrichienne"
-                },
-                {
-                    "name": "\u00c3\u2030toile Rouge de Belgrade",
-                    "pot": 3,
-                    "league": "SuperLiga"
-                },
-                {
-                    "name": "Feyenoord Rotterdam",
-                    "pot": 3,
-                    "league": "Eredivisie"
                 },
                 {
                     "name": "Sporting Portugal",
                     "pot": 3,
                     "league": "Primeira Liga"
+                },
+                {
+                    "name": "G\u00c3\u00a9rone",
+                    "pot": 4,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "Bologne",
+                    "pot": 4,
+                    "league": "Serie A"
+                }
+            ]
+        },
+        "Club Bruges": {
+            "chapeau": 2,
+            "league": "Jupiler Pro League",
+            "home": [
+                {
+                    "name": "Real Madrid",
+                    "pot": 1,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "FC Barcelone",
+                    "pot": 1,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "Shakhtar Donetsk",
+                    "pot": 2,
+                    "league": "Premyer-Liha"
+                },
+                {
+                    "name": "Atalanta Bergame",
+                    "pot": 2,
+                    "league": "Serie A"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Celtic",
+                    "pot": 3,
+                    "league": "Scottish Premiership"
+                },
+                {
+                    "name": "\u00c3\u2030toile Rouge de Belgrade",
+                    "pot": 3,
+                    "league": "SuperLiga"
+                },
+                {
+                    "name": "Stuttgart",
+                    "pot": 4,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Bologne",
+                    "pot": 4,
+                    "league": "Serie A"
+                }
+            ]
+        },
+        "Shakhtar Donetsk": {
+            "chapeau": 2,
+            "league": "Premyer-Liha",
+            "home": [
+                {
+                    "name": "Borussia Dortmund",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "RB Leipzig",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Club Bruges",
+                    "pot": 2,
+                    "league": "Jupiler Pro League"
+                },
+                {
+                    "name": "Atalanta Bergame",
+                    "pot": 2,
+                    "league": "Serie A"
+                }
+            ],
+            "away": [
+                {
+                    "name": "RB Salzbourg",
+                    "pot": 3,
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "Stuttgart",
+                    "pot": 4,
+                    "league": "Bundesliga"
+                }
+            ]
+        },
+        "AC Milan": {
+            "chapeau": 2,
+            "league": "Serie A",
+            "home": [
+                {
+                    "name": "PSG",
+                    "pot": 1,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "Bayern Munich",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Shakhtar Donetsk",
+                    "pot": 2,
+                    "league": "Premyer-Liha"
+                },
+                {
+                    "name": "Bayer Leverkusen",
+                    "pot": 2,
+                    "league": "Bundesliga"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "PSV Eindhoven",
+                    "pot": 3,
+                    "league": "Eredivisie"
+                },
+                {
+                    "name": "Sparta Prague",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                },
+                {
+                    "name": "Stade Brestois",
+                    "pot": 4,
+                    "league": "Ligue 1"
                 }
             ]
         },
@@ -1372,148 +854,105 @@
                     "league": "Premier League"
                 },
                 {
-                    "name": "Aston Villa",
-                    "pot": 4,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "Sturm Graz",
-                    "pot": 4,
-                    "league": "Bundesliga Autrichienne"
-                },
-                {
-                    "name": "\u00c3\u2030toile Rouge de Belgrade",
-                    "pot": 3,
-                    "league": "SuperLiga"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Benfica Lisbonne",
-                    "pot": 2,
-                    "league": "Primeira Liga"
-                },
-                {
-                    "name": "Shakhtar Donetsk",
-                    "pot": 2,
-                    "league": "Premyer-Liha"
-                },
-                {
-                    "name": "Sporting Portugal",
-                    "pot": 3,
-                    "league": "Primeira Liga"
-                },
-                {
-                    "name": "Lille",
-                    "pot": 3,
-                    "league": "Ligue 1"
-                }
-            ]
-        },
-        "Sturm Graz": {
-            "chapeau": 4,
-            "league": "Bundesliga Autrichienne",
-            "home": [
-                {
-                    "name": "\u00c3\u2030toile Rouge de Belgrade",
-                    "pot": 3,
-                    "league": "SuperLiga"
-                },
-                {
-                    "name": "Lille",
-                    "pot": 3,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "Manchester City",
+                    "name": "Liverpool",
                     "pot": 1,
                     "league": "Premier League"
                 },
                 {
-                    "name": "Sporting Portugal",
-                    "pot": 3,
-                    "league": "Primeira Liga"
+                    "name": "Bayer Leverkusen",
+                    "pot": 2,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Arsenal",
+                    "pot": 2,
+                    "league": "Premier League"
                 }
             ],
             "away": [
                 {
-                    "name": "Feyenoord Rotterdam",
+                    "name": "Celtic",
                     "pot": 3,
-                    "league": "Eredivisie"
+                    "league": "Scottish Premiership"
                 },
                 {
-                    "name": "Shakhtar Donetsk",
-                    "pot": 2,
-                    "league": "Premyer-Liha"
+                    "name": "\u00c3\u2030toile Rouge de Belgrade",
+                    "pot": 3,
+                    "league": "SuperLiga"
                 },
                 {
-                    "name": "Benfica Lisbonne",
-                    "pot": 2,
-                    "league": "Primeira Liga"
-                },
-                {
-                    "name": "Aston Villa",
+                    "name": "Slovan Bratislava",
                     "pot": 4,
-                    "league": "Premier League"
+                    "league": "Fortuna Liga"
+                },
+                {
+                    "name": "Bologne",
+                    "pot": 4,
+                    "league": "Serie A"
                 }
             ]
         },
-        "\u00c3\u2030toile Rouge de Belgrade": {
+        "Sporting Portugal": {
             "chapeau": 3,
-            "league": "SuperLiga",
-            "home": [
-                {
-                    "name": "Sporting Portugal",
-                    "pot": 3,
-                    "league": "Primeira Liga"
-                },
-                {
-                    "name": "Aston Villa",
-                    "pot": 4,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "Lille",
-                    "pot": 3,
-                    "league": "Ligue 1"
-                },
-                {
-                    "name": "Feyenoord Rotterdam",
-                    "pot": 3,
-                    "league": "Eredivisie"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Manchester City",
-                    "pot": 1,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "Shakhtar Donetsk",
-                    "pot": 2,
-                    "league": "Premyer-Liha"
-                },
-                {
-                    "name": "Benfica Lisbonne",
-                    "pot": 2,
-                    "league": "Primeira Liga"
-                },
-                {
-                    "name": "Sturm Graz",
-                    "pot": 4,
-                    "league": "Bundesliga Autrichienne"
-                }
-            ]
-        },
-        "Benfica Lisbonne": {
-            "chapeau": 2,
             "league": "Primeira Liga",
             "home": [
                 {
+                    "name": "Manchester City",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Liverpool",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "AC Milan",
+                    "pot": 2,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Club Bruges",
+                    "pot": 2,
+                    "league": "Jupiler Pro League"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Feyenoord Rotterdam",
+                    "pot": 3,
+                    "league": "Eredivisie"
+                },
+                {
+                    "name": "Dinamo Zagreb",
+                    "pot": 3,
+                    "league": "Prva HNL"
+                },
+                {
+                    "name": "G\u00c3\u00a9rone",
+                    "pot": 4,
+                    "league": "La Liga"
+                },
+                {
                     "name": "Aston Villa",
                     "pot": 4,
                     "league": "Premier League"
+                }
+            ]
+        },
+        "PSV Eindhoven": {
+            "chapeau": 3,
+            "league": "Eredivisie",
+            "home": [
+                {
+                    "name": "RB Leipzig",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Real Madrid",
+                    "pot": 1,
+                    "league": "La Liga"
                 },
                 {
                     "name": "Shakhtar Donetsk",
@@ -1521,57 +960,100 @@
                     "league": "Premyer-Liha"
                 },
                 {
-                    "name": "Sporting Portugal",
-                    "pot": 3,
+                    "name": "Benfica Lisbonne",
+                    "pot": 2,
                     "league": "Primeira Liga"
-                },
-                {
-                    "name": "Feyenoord Rotterdam",
-                    "pot": 3,
-                    "league": "Eredivisie"
                 }
             ],
             "away": [
+                {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "Dinamo Zagreb",
+                    "pot": 3,
+                    "league": "Prva HNL"
+                },
+                {
+                    "name": "Bologne",
+                    "pot": 4,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Stuttgart",
+                    "pot": 4,
+                    "league": "Bundesliga"
+                }
+            ]
+        },
+        "Dinamo Zagreb": {
+            "chapeau": 3,
+            "league": "Prva HNL",
+            "home": [
                 {
                     "name": "Manchester City",
                     "pot": 1,
                     "league": "Premier League"
                 },
                 {
-                    "name": "\u00c3\u2030toile Rouge de Belgrade",
-                    "pot": 3,
-                    "league": "SuperLiga"
+                    "name": "Borussia Dortmund",
+                    "pot": 1,
+                    "league": "Bundesliga"
                 },
                 {
-                    "name": "Sturm Graz",
-                    "pot": 4,
-                    "league": "Bundesliga Autrichienne"
+                    "name": "AC Milan",
+                    "pot": 2,
+                    "league": "Serie A"
                 },
                 {
-                    "name": "Lille",
-                    "pot": 3,
-                    "league": "Ligue 1"
+                    "name": "Atalanta Bergame",
+                    "pot": 2,
+                    "league": "Serie A"
                 }
-            ]
-        },
-        "Manchester City": {
-            "chapeau": 1,
-            "league": "Premier League",
-            "home": [
+            ],
+            "away": [
                 {
-                    "name": "Feyenoord Rotterdam",
+                    "name": "PSV Eindhoven",
                     "pot": 3,
                     "league": "Eredivisie"
                 },
                 {
-                    "name": "\u00c3\u2030toile Rouge de Belgrade",
+                    "name": "RB Salzbourg",
                     "pot": 3,
-                    "league": "SuperLiga"
+                    "league": "Bundesliga Autrichienne"
                 },
                 {
-                    "name": "Aston Villa",
+                    "name": "AS Monaco",
                     "pot": 4,
-                    "league": "Premier League"
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "Sparta Prague",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                }
+            ]
+        },
+        "RB Salzbourg": {
+            "chapeau": 3,
+            "league": "Bundesliga Autrichienne",
+            "home": [
+                {
+                    "name": "Inter Milan",
+                    "pot": 1,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Bayern Munich",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Bayer Leverkusen",
+                    "pot": 2,
+                    "league": "Bundesliga"
                 },
                 {
                     "name": "Shakhtar Donetsk",
@@ -1581,24 +1063,24 @@
             ],
             "away": [
                 {
-                    "name": "Lille",
+                    "name": "Feyenoord Rotterdam",
                     "pot": 3,
-                    "league": "Ligue 1"
+                    "league": "Eredivisie"
                 },
                 {
-                    "name": "Sturm Graz",
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "Bologne",
                     "pot": 4,
-                    "league": "Bundesliga Autrichienne"
+                    "league": "Serie A"
                 },
                 {
-                    "name": "Sporting Portugal",
-                    "pot": 3,
-                    "league": "Primeira Liga"
-                },
-                {
-                    "name": "Benfica Lisbonne",
-                    "pot": 2,
-                    "league": "Primeira Liga"
+                    "name": "AS Monaco",
+                    "pot": 4,
+                    "league": "Ligue 1"
                 }
             ]
         },
@@ -1607,84 +1089,175 @@
             "league": "Ligue 1",
             "home": [
                 {
+                    "name": "FC Barcelone",
+                    "pot": 1,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "Bayern Munich",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Arsenal",
+                    "pot": 2,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Juventus Turin",
+                    "pot": 2,
+                    "league": "Serie A"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Celtic",
+                    "pot": 3,
+                    "league": "Scottish Premiership"
+                },
+                {
+                    "name": "RB Salzbourg",
+                    "pot": 3,
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "Sparta Prague",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                },
+                {
+                    "name": "Stuttgart",
+                    "pot": 4,
+                    "league": "Bundesliga"
+                }
+            ]
+        },
+        "\u00c3\u2030toile Rouge de Belgrade": {
+            "chapeau": 3,
+            "league": "SuperLiga",
+            "home": [
+                {
+                    "name": "PSG",
+                    "pot": 1,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "Borussia Dortmund",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Juventus Turin",
+                    "pot": 2,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Arsenal",
+                    "pot": 2,
+                    "league": "Premier League"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "Celtic",
+                    "pot": 3,
+                    "league": "Scottish Premiership"
+                },
+                {
+                    "name": "Sparta Prague",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                },
+                {
+                    "name": "Aston Villa",
+                    "pot": 4,
+                    "league": "Premier League"
+                }
+            ]
+        },
+        "Young Boys": {
+            "chapeau": 3,
+            "league": "Super League",
+            "home": [
+                {
+                    "name": "Manchester City",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Liverpool",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "AC Milan",
+                    "pot": 2,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Juventus Turin",
+                    "pot": 2,
+                    "league": "Serie A"
+                }
+            ],
+            "away": [
+                {
+                    "name": "\u00c3\u2030toile Rouge de Belgrade",
+                    "pot": 3,
+                    "league": "SuperLiga"
+                },
+                {
+                    "name": "Dinamo Zagreb",
+                    "pot": 3,
+                    "league": "Prva HNL"
+                },
+                {
+                    "name": "AS Monaco",
+                    "pot": 4,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "Stade Brestois",
+                    "pot": 4,
+                    "league": "Ligue 1"
+                }
+            ]
+        },
+        "Celtic": {
+            "chapeau": 3,
+            "league": "Scottish Premiership",
+            "home": [
+                {
+                    "name": "RB Leipzig",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Borussia Dortmund",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
                     "name": "Shakhtar Donetsk",
                     "pot": 2,
                     "league": "Premyer-Liha"
                 },
                 {
-                    "name": "Feyenoord Rotterdam",
-                    "pot": 3,
-                    "league": "Eredivisie"
-                },
-                {
-                    "name": "Sturm Graz",
-                    "pot": 4,
-                    "league": "Bundesliga Autrichienne"
-                },
-                {
-                    "name": "\u00c3\u2030toile Rouge de Belgrade",
-                    "pot": 3,
-                    "league": "SuperLiga"
-                }
-            ],
-            "away": [
-                {
-                    "name": "Aston Villa",
-                    "pot": 4,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "Sporting Portugal",
-                    "pot": 3,
-                    "league": "Primeira Liga"
-                },
-                {
-                    "name": "Benfica Lisbonne",
+                    "name": "Atalanta Bergame",
                     "pot": 2,
-                    "league": "Primeira Liga"
-                },
-                {
-                    "name": "Manchester City",
-                    "pot": 1,
-                    "league": "Premier League"
-                }
-            ]
-        },
-        "Shakhtar Donetsk": {
-            "chapeau": 2,
-            "league": "Premyer-Liha",
-            "home": [
-                {
-                    "name": "Sturm Graz",
-                    "pot": 4,
-                    "league": "Bundesliga Autrichienne"
-                },
-                {
-                    "name": "Manchester City",
-                    "pot": 1,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "Feyenoord Rotterdam",
-                    "pot": 3,
-                    "league": "Eredivisie"
-                },
-                {
-                    "name": "Sporting Portugal",
-                    "pot": 3,
-                    "league": "Primeira Liga"
+                    "league": "Serie A"
                 }
             ],
             "away": [
                 {
-                    "name": "Aston Villa",
-                    "pot": 4,
-                    "league": "Premier League"
-                },
-                {
-                    "name": "\u00c3\u2030toile Rouge de Belgrade",
+                    "name": "Dinamo Zagreb",
                     "pot": 3,
-                    "league": "SuperLiga"
+                    "league": "Prva HNL"
                 },
                 {
                     "name": "Lille",
@@ -1692,9 +1265,441 @@
                     "league": "Ligue 1"
                 },
                 {
-                    "name": "Benfica Lisbonne",
+                    "name": "Stade Brestois",
+                    "pot": 4,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "Slovan Bratislava",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                }
+            ]
+        },
+        "Slovan Bratislava": {
+            "chapeau": 4,
+            "league": "Fortuna Liga",
+            "home": [
+                {
+                    "name": "Real Madrid",
+                    "pot": 1,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "Borussia Dortmund",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Shakhtar Donetsk",
                     "pot": 2,
+                    "league": "Premyer-Liha"
+                },
+                {
+                    "name": "AC Milan",
+                    "pot": 2,
+                    "league": "Serie A"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Sporting Portugal",
+                    "pot": 3,
                     "league": "Primeira Liga"
+                },
+                {
+                    "name": "RB Salzbourg",
+                    "pot": 3,
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "Stade Brestois",
+                    "pot": 4,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "Stuttgart",
+                    "pot": 4,
+                    "league": "Bundesliga"
+                }
+            ]
+        },
+        "AS Monaco": {
+            "chapeau": 4,
+            "league": "Ligue 1",
+            "home": [
+                {
+                    "name": "Manchester City",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Real Madrid",
+                    "pot": 1,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "AC Milan",
+                    "pot": 2,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Atl\u00c3\u00a9tico de Madrid",
+                    "pot": 2,
+                    "league": "La Liga"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Celtic",
+                    "pot": 3,
+                    "league": "Scottish Premiership"
+                },
+                {
+                    "name": "Feyenoord Rotterdam",
+                    "pot": 3,
+                    "league": "Eredivisie"
+                },
+                {
+                    "name": "Bologne",
+                    "pot": 4,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Slovan Bratislava",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                }
+            ]
+        },
+        "Sparta Prague": {
+            "chapeau": 4,
+            "league": "Fortuna Liga",
+            "home": [
+                {
+                    "name": "Liverpool",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Inter Milan",
+                    "pot": 1,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Club Bruges",
+                    "pot": 2,
+                    "league": "Jupiler Pro League"
+                },
+                {
+                    "name": "Juventus Turin",
+                    "pot": 2,
+                    "league": "Serie A"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Lille",
+                    "pot": 3,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "Sporting Portugal",
+                    "pot": 3,
+                    "league": "Primeira Liga"
+                },
+                {
+                    "name": "G\u00c3\u00a9rone",
+                    "pot": 4,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "Sturm Graz",
+                    "pot": 4,
+                    "league": "Bundesliga Autrichienne"
+                }
+            ]
+        },
+        "Aston Villa": {
+            "chapeau": 4,
+            "league": "Premier League",
+            "home": [
+                {
+                    "name": "Bayern Munich",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "PSG",
+                    "pot": 1,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "AC Milan",
+                    "pot": 2,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Bayer Leverkusen",
+                    "pot": 2,
+                    "league": "Bundesliga"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Sporting Portugal",
+                    "pot": 3,
+                    "league": "Primeira Liga"
+                },
+                {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "Stade Brestois",
+                    "pot": 4,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "G\u00c3\u00a9rone",
+                    "pot": 4,
+                    "league": "La Liga"
+                }
+            ]
+        },
+        "Bologne": {
+            "chapeau": 4,
+            "league": "Serie A",
+            "home": [
+                {
+                    "name": "PSG",
+                    "pot": 1,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "RB Leipzig",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Bayer Leverkusen",
+                    "pot": 2,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Shakhtar Donetsk",
+                    "pot": 2,
+                    "league": "Premyer-Liha"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Lille",
+                    "pot": 3,
+                    "league": "Ligue 1"
+                },
+                {
+                    "name": "RB Salzbourg",
+                    "pot": 3,
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "Sparta Prague",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                },
+                {
+                    "name": "Aston Villa",
+                    "pot": 4,
+                    "league": "Premier League"
+                }
+            ]
+        },
+        "G\u00c3\u00a9rone": {
+            "chapeau": 4,
+            "league": "La Liga",
+            "home": [
+                {
+                    "name": "Bayern Munich",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "RB Leipzig",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Juventus Turin",
+                    "pot": 2,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "AC Milan",
+                    "pot": 2,
+                    "league": "Serie A"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "Feyenoord Rotterdam",
+                    "pot": 3,
+                    "league": "Eredivisie"
+                },
+                {
+                    "name": "Sturm Graz",
+                    "pot": 4,
+                    "league": "Bundesliga Autrichienne"
+                },
+                {
+                    "name": "Slovan Bratislava",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                }
+            ]
+        },
+        "Stuttgart": {
+            "chapeau": 4,
+            "league": "Bundesliga",
+            "home": [
+                {
+                    "name": "Inter Milan",
+                    "pot": 1,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Real Madrid",
+                    "pot": 1,
+                    "league": "La Liga"
+                },
+                {
+                    "name": "Club Bruges",
+                    "pot": 2,
+                    "league": "Jupiler Pro League"
+                },
+                {
+                    "name": "Arsenal",
+                    "pot": 2,
+                    "league": "Premier League"
+                }
+            ],
+            "away": [
+                {
+                    "name": "\u00c3\u2030toile Rouge de Belgrade",
+                    "pot": 3,
+                    "league": "SuperLiga"
+                },
+                {
+                    "name": "Celtic",
+                    "pot": 3,
+                    "league": "Scottish Premiership"
+                },
+                {
+                    "name": "Sparta Prague",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                },
+                {
+                    "name": "Bologne",
+                    "pot": 4,
+                    "league": "Serie A"
+                }
+            ]
+        },
+        "Sturm Graz": {
+            "chapeau": 4,
+            "league": "Bundesliga Autrichienne",
+            "home": [
+                {
+                    "name": "RB Leipzig",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Liverpool",
+                    "pot": 1,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Arsenal",
+                    "pot": 2,
+                    "league": "Premier League"
+                },
+                {
+                    "name": "Juventus Turin",
+                    "pot": 2,
+                    "league": "Serie A"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Young Boys",
+                    "pot": 3,
+                    "league": "Super League"
+                },
+                {
+                    "name": "Feyenoord Rotterdam",
+                    "pot": 3,
+                    "league": "Eredivisie"
+                },
+                {
+                    "name": "Aston Villa",
+                    "pot": 4,
+                    "league": "Premier League"
+                }
+            ]
+        },
+        "Stade Brestois": {
+            "chapeau": 4,
+            "league": "Ligue 1",
+            "home": [
+                {
+                    "name": "Bayern Munich",
+                    "pot": 1,
+                    "league": "Bundesliga"
+                },
+                {
+                    "name": "Inter Milan",
+                    "pot": 1,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Juventus Turin",
+                    "pot": 2,
+                    "league": "Serie A"
+                },
+                {
+                    "name": "Arsenal",
+                    "pot": 2,
+                    "league": "Premier League"
+                }
+            ],
+            "away": [
+                {
+                    "name": "Celtic",
+                    "pot": 3,
+                    "league": "Scottish Premiership"
+                },
+                {
+                    "name": "PSV Eindhoven",
+                    "pot": 3,
+                    "league": "Eredivisie"
+                },
+                {
+                    "name": "Slovan Bratislava",
+                    "pot": 4,
+                    "league": "Fortuna Liga"
+                },
+                {
+                    "name": "G\u00c3\u00a9rone",
+                    "pot": 4,
+                    "league": "La Liga"
                 }
             ]
         }

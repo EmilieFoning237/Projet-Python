@@ -1,13 +1,20 @@
-# Ce module contient les instances de vos classes back-end et front-end
+# Ce module gère le tirage au sort et la génération du PDF des résultats.
 from draw import Draw, DrawPDF
 import json
 
-# Charger les équipes depuis le fichier JSON
-with open("data/teams.json", "r") as file:
-    teams = json.load(file)
+# Charger les données des équipes depuis le fichier JSON
+try:
+    with open("data/teams.json", "r") as file:
+        teams_data = json.load(file)
+except FileNotFoundError:
+    print("Erreur: le fichier teams.json n'a pas été trouvé.")
+    exit()
+except json.JSONDecodeError:
+    print("Erreur: le fichier teams.json n'est pas correctement formaté.")
+    exit()
 
 # Créer une instance de la classe Draw pour gérer le tirage au sort
-draw = Draw(teams)
+draw = Draw(teams_data)
 
 # Effectuer le tirage au sort
 draw.make_draw()
