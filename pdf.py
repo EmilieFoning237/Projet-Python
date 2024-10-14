@@ -106,3 +106,5 @@ def generate_draw():
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+#projet à améliorer côté front
